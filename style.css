@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    text-align: center;
+}
+
+nav{
+    width:100%;
+    height:auto;
+}
+
+img{
+    width:150px;
+    height:auto;
+}
+
+span{
+    display:block;
+    margin:5px;
+}
+
+a{
+    text-decoration: none;
+    color:#666666;
+    font-size:16px;
+    font-weight:100;
+    letter-spacing:2px;
+    line-height:30px;
+    text-transform:uppercase;
+}
+
+header{
+    width:100%;
+    height:500px;
+    background-image: url("pav1.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    
+}
+
+h1{
+    width:68%;
+    height:40px;
+    background-color:bisque;
+    margin:0 auto;
+    
+}
+
+section{
+    width:90%;
+    height:auto;
+    margin:0 auto;
+}
+
+p{
+    line-height:34px;
+    color:#333333;
+    font-weight:100;
+    text-align: justify;
+    padding:20px;
+
+}
+
+.mygtukas{
+   width:200px;
+    padding:20px;
+    border:2px solid bisque;
+    border-radius:10px;
+    display:block;
+    margin:30px auto;
+    font-weight:600;
+    
+    
+}
+
+.mygtukas:hover{
+    background-color: bisque;
+}
+
+li{
+    width:200px;
+    display: inline-block;
+    background-color: bisque;
+    color:black;
+    padding:10px 20px;
+    margin-bottom:3px;
+}
+
+.pavadinimas{
+    font-weight:100;
+    letter-spacing:2px;
+}
+
+.reiksme{
+font-weight:700;
+font-size:26px;
+letter-spacing:2px;
+}
+
+footer
+{
+    width:100%;
+    height:250px;
+    padding:5px;
+    
+}
+
+
+footer p{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+/*namų darbas: reikia pabaigti mygtuką, kai užvažiuoju pasikeičia fonas ir teksto spalva */
